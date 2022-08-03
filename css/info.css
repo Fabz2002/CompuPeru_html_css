@@ -1,0 +1,58 @@
+#inf_proovedores{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#inf_proovedores .contenedor{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+.info-prov{
+margin: 10px;
+}
+
+#inf_proovedores h3{
+    font-weight: normal;
+    font-size: 20px;
+
+}
+
+.info-prov h4 {
+    font-weight: 500;
+    font-size: 17px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lora', serif;    
+    font-family: 'Merriweather', serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.info-prov img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+@media (min-width:480px){
+    .info-prov{
+        width:50%
+    }
+}
+@media (min-width:720px){
+    .info-prov{
+        width:30%
+    }
+}
+
+
+@media (min-width:1024px){
+    .info-prov{
+        width:auto
+    }
+}

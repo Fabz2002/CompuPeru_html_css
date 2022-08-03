@@ -1,0 +1,57 @@
+.allNosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcionNosotros{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcionNosotros h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 2px solid rgba(255, 0, 0, 1);
+}
+
+.descripcionNosotros img{
+    width: 50%;
+    height: 50%;
+}
+.descripcionNosotros p{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-family: 'M PLUS 1', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.ubicacionPrincipalNosotros{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ubicacionPrincipalNosotros h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid rgba(255, 0, 0, 1);
+}
+
+.ubicacionPrincipalNosotros iframe{
+    width: 100%;
+    height: 25rem;
+}

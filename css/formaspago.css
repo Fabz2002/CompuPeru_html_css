@@ -1,0 +1,161 @@
+.formasdePago{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.tituloFormasDePago {
+ border-bottom: 2px solid rgba(255, 0, 0, 1);
+ text-transform: uppercase;
+ font-family: 'Montserrat', sans-serif;
+ margin-bottom: 1rem;
+ margin-top: 60px;
+ text-align: center;
+}
+
+.cuentaCorrientesSoles{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.cuentaCorrientesDolares{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+
+.tituloTablaSoles{
+    color: #fff;
+    background: rgb(9, 11, 43);
+    text-align: end;
+    font-size: 40px;   
+    padding: 0px 10rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.tituloTablaDolares{
+    color: #fff;
+    background: rgb(9, 11, 43);
+    text-align: end;
+    font-size: 40px;   
+    padding: 0px 7.7rem;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.bcpSoles,
+.bbvaSoles,
+.interbankSoles,
+.bcpDolares,
+.bbvaDolares,
+.interbankDolares
+{
+   display: flex;
+   align-items: center;
+   border-top: 2px solid #C1C5C6;
+   border-bottom: 2px solid #C1C5C6;;
+   margin-bottom: 1rem;
+}
+
+.bcpCuentaSoles{
+   font-family: 'Fredoka', sans-serif;
+   margin-right: 2rem;
+}
+.bcpLink{
+    text-decoration: none;
+    background:#4ed5ed;
+    color:#fff;
+    padding: 1rem 0.5rem;
+    margin-left: 1.4rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.bcpSoles img{
+    margin-left: 4.8rem;
+    margin-right: 1rem;
+}
+
+.bbvaCuentaSoles{
+    font-family: 'Fredoka', sans-serif;
+}
+.bbvaLink{
+    text-decoration: none;
+    background:#4ed5ed;
+    color:#fff;
+    padding: 1rem 0.5rem;
+    margin-left: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.bbvaSoles img{
+   margin-left: 5rem;
+   margin-right: 1rem;
+}
+
+.interbankCuentaSoles{
+    font-family: 'Fredoka', sans-serif;
+    margin-right: 3.2rem;
+}
+.interbankLink{
+    text-decoration: none;
+    background:#4ed5ed;
+    color:#fff;
+    padding: 1rem 0.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.interbankSoles img{
+    margin-left: 4rem;
+    margin-right: 2rem;
+}
+
+.bcpCuentaDolares{
+    font-family: 'Fredoka', sans-serif;
+    margin-right: 1.7rem;
+ }
+ .bcpDolares img{
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+.bbvaCuentaDolares{
+    font-family: 'Fredoka', sans-serif;
+}
+.bbvaDolares img{
+    margin-left: 4rem;
+ }
+ .interbankCuentaDolares{
+    font-family: 'Fredoka', sans-serif;
+    margin-right: 3rem;
+}
+.interbankDolares img{
+    margin-left: 2rem;
+    margin-right: 1.7rem;
+}
+
+
+
+
+.bcpLink:hover,.bbvaLink:hover,.interbankLink:hover,
+.bcpLink:focus,.bbvaLink:focus,.interbankLink:focus
+{
+    color: #000;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+ 
+
+
+ 
+
+
+
+
+
+
+

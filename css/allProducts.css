@@ -1,0 +1,165 @@
+#allProducts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#monitores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+#graficas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+#procesadores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.productoMonitores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6rem;
+}
+.productoGraficas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6rem;
+}
+.productoProcesadores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6rem;
+}
+
+.productoMonitores img,
+.productoGraficas img,
+.productoProcesadores img{
+    width: 15rem;
+    height: 15rem;
+}
+
+
+
+.productDescripcion{
+    font-size: 14px;
+    color: #0066c0;
+    text-align: center;
+    width: 200px;
+}
+
+.productoPrecio{
+    color: #000;
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+}
+
+.productoMonitores a,
+.productoGraficas a,
+.productoProcesadores a{
+    background: #f3f3f3;
+    color: #222;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 26px;
+    font-size: 1rem;
+}
+
+
+
+
+.productoMonitores a:hover,
+.productoMonitores a:focus,
+.productoProcesadores a:hover,
+.productoProcesadores a:focus,
+.productoGraficas a:hover,
+.productoGraficas a:focus{
+    background: #b70e21;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+
+}
+
+
+@media (max-width: 768px){
+    #subNavegadores{
+        display: grid;
+        grid-template-columns: 1fr;
+        border-bottom: none;
+    }
+    .menuInterno ul{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #monitores{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #graficas{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #procesadores{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (min-width: 768px){
+    #monitores{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #graficas{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #procesadores{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 1024px){
+    #monitores{
+        grid-template-columns: repeat(2,1fr);
+    }
+    #graficas{
+        grid-template-columns: repeat(2,1fr);
+    }
+    #procesadores{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (min-width: 1200px){
+    #monitores{
+        grid-template-columns: repeat(3,1fr);
+    }
+    #graficas{
+        grid-template-columns: repeat(3,1fr);
+    }
+    #procesadores{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
